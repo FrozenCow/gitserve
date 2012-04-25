@@ -1,0 +1,16 @@
+{
+  "name": "gitserve",
+  "description": "Publishing contents of Git repositories as static content through HTTP.",
+  "version": "0.0.1",
+  "author": {
+    "name": "FrozenCow",
+    "email": "frozencow@gmail.com"
+  },
+  "main": "./server.js",
+  "dependencies": {
+    "gitteh": ">= 0.1.0",
+    "mime": ">= 1.2.5",
+    "commander": ">= 0.6.0",
+    "express": ">= 2.5.9"
+  }
+}
